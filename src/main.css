@@ -1,0 +1,174 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+   margin:0;
+}
+header{
+
+	margin-top:-40px;
+	text-align: center;
+	background-color: #8743cc;
+	height: 150px;
+	
+	box-shadow: 0px 1px 2px;
+	
+}
+header h3{
+	font-family: OCR A Std, monospace;
+	color: white;
+	margin-top: -30px;
+}
+h4{
+	font-family: OCR A Std, monospace;
+}
+.logo{
+	margin-top: 10px;
+	width: 410px;
+	border-image: none;
+
+
+}
+p{
+	font-family: OCR A Std, monospace;
+}
+
+
+
+a:link{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: white;
+}
+
+.squares{
+	width:auto;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 30px;
+}
+#diario{
+	float: left;
+	box-shadow: 5px 2px 10px;
+	height: 250px;
+	width:250px;
+	margin: 10px;
+	border: 1px solid #9494b8;
+	border-radius: 6px;
+	padding: 10px;
+	
+}
+#diario input{
+	margin-top: 15px;
+}
+#dias{
+	float: left;
+	box-shadow: 5px 2px 10px;
+	margin: 10px;
+	height: 250px;
+	width:250px;
+	border: 1px solid #9494b8;
+	border-radius: 6px;
+	padding: 10px;
+	
+}
+#dias input{
+	margin-top: 15px
+}
+
+#ferias{
+	float: left;
+	box-shadow: 5px 2px 10px;
+	margin: 10px;
+	height: 250px;
+	width:250px;
+	border: 1px solid #9494b8;
+	border-radius: 6px;
+	padding: 10px;
+	
+}
+#ferias input{
+	margin-top: 15px;
+}
+
+#total{
+	float: left;
+	box-shadow: 5px 2px 10px;
+	margin: 10px;
+	height: 250px;
+	width:250px;;
+	border: 1px solid #9494b8;
+	border-radius: 6px;
+	padding: 10px;
+	
+
+}
+#total input{
+	margin-top: 15px;
+}
+
+#resultado{
+	float: left;
+	height: 200px;
+	width: 250px;
+	
+}
+#resultado p{
+	margin-left: 40px;
+	margin-top: 50px;
+	font-size: 25px;
+	border-bottom: 1px solid #836FFF;
+}
+
+button{
+	
+	width: 200px;
+	height: 60px;
+	color: white;
+	background-color: #8743cc;
+	margin-top: 10px;
+	margin-left: 40px;
+	border-style: none;
+	font-size:18px;
+	border-radius: 4px;
+	font-family: OCR A Std, monospace;
+	box-shadow: 3px 3px 10px black;
+
+}
+
+footer {
+	background-color:#8743cc;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align:center;	
+    
+}
+footer img{
+	float: left;
+}
+
+footer p{
+	float: left;
+	margin-left: 25px;
+	font-size: 14px;
+}
+footer a{
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+

@@ -7,9 +7,64 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <div>
-      <h1>Olá mundo.</h1>
+    
+    <header>
+      <div>
+        <a href="https://heartdevs.com/"><img src="imgs/logo.png" class="logo"></a>
+        <h3>Calculadora de Freelas</h3>
+      </div>
+    </header>
+
+   
+    <div class="container">
+      <section class="content">
+              
+        <div class="squares">
+          <div id="diario">
+            <h4>Tempo diário no Projeto</h4>
+            <p>Aquele tempinho em off de suas obrigações que você usa para relaxar. Esse tempo é algo muito valioso para qualquer pessoa, certo? Então claramente temos que levar esse fator em consideração.</p>
+            <input type="text" name="diario" placeholder="Tempo diário..." autocomplete="off" required="Por favor insira um valor númerio!">
+          </div>
+  
+      
+
+        
+          <div id="dias">
+            <h4>Dias efetivos trabalhando</h4>
+            <p>Não há garantia de que irá trabalhar todos os dias. Você terá que cotar uma quantidade de dias especificos para lidar com todo o processo, sendo ele a parte comercial e desenvolvimento.</p>
+            <input type="text" name="dias" placeholder="Dias efetivos..." autocomplete="off" required="Por favor insira um valor númerico!">
+          </div>
+          
+      
+
+          <div id="ferias">
+            <h4>Dias de Férias por projeto</h4>
+            <p>Freela também há seus encargos referente a verba de férias. Uma parte do valor da sua hora reflete diretamente na quantidade de dias que você deseja tirar "férias" com o valor total projeto.</p>
+            <input type="text" name="ferias" placeholder="Dias de férias..." autocomplete="off" required="Por favor insira um valor númerico!">
+          </div>
+          
+        
+          <div id="total">
+            <h4>Valor total do Projeto</h4>
+            <p>Não podemos esquecer do principal fator que é o total a ser recebido pelo freela. A partir desse valor, do quanto você desejaria ganhar em cima do trabalho, é feito o calculo maior.</p>
+            <input type="text" name="total" placeholder="Valor total do projeto..." autocomplete="off" required="Por favor insira um valor númerico!">
+          </div>
+        </div>  
+        
+        <div id="resultado">
+          <button>Calcule seu Freela</button>
+          <p>R$:</p>
+        </div>
+        
+      </section>
+  
     </div>
+
+    <footer>
+      <img src="imgs/logo.png" width=10%> 
+      <p>Este desafio foi desenvolvido pelo grupo <a href="https://heartdevs.com/">He4rt Developers</a> para uso livre da comunidade.</p>
+    </footer>
+    
     <script src="./main.js"></script>
   </body>
 </html>
